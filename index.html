@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Shadow</title>
+  <!-- Police futuriste sobre -->
   <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
   <style>
     html, body {
@@ -14,24 +15,35 @@
       color: #ffffff;
       font-family: 'Russo One', sans-serif;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       text-align: center;
     }
-    div {
-      max-width: 90%;
-      padding: 2rem;
+
+    img.logo {
+      width: 180px;
+      margin-bottom: 2rem;
     }
+
+    .text {
+      max-width: 90%;
+      padding: 0 2rem;
+    }
+
     p {
       font-size: 2.2rem;
       letter-spacing: 1px;
       text-transform: uppercase;
-      margin: 2.2rem 0; /* légèrement augmenté */
+      margin: 1.2rem 0;
     }
   </style>
 </head>
 <body>
-  <div>
+  <!-- Logo affiché au-dessus du texte -->
+  <img src="shadow_logo.png" alt="Shadow logo" class="logo">
+
+  <div class="text">
     <p>When Everything Is Remembered By Machines</p>
     <p>Only Those Who Own Their Memory Will Keep Their Humanity</p>
   </div>
