@@ -2,23 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Shadow</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHADOW – Your Memory Becomes the Protocol</title>
   <style>
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
+    }
+    body {
       background-color: black;
     }
-    img.fullscreen {
+    .bg {
+      position: fixed;
+      top: 0; left: 0;
       width: 100%;
       height: 100%;
-      object-fit: cover;
-      display: block;
+      background-image: url('Shadow%20Memory%20Protocol.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
   </style>
 </head>
 <body>
-  <img src="Shadow%20Memory%20Protocol.png" alt="Shadow Landing Page" class="fullscreen" />
+  <div class="bg"></div>
 </body>
 </html>
